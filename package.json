@@ -1,0 +1,27 @@
+{
+  "name": "nodedemo",
+  "version": "1.0.0",
+  "description": "LinkedIn Learning Tutorial",
+  "main": "demo.js",
+  "dependencies": {
+    "lodash": "^4.17.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senaru.github.io/nodeDemo.git"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "Senaru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senaru.github.io/nodeDemo/issues"
+  },
+  "homepage": "https://github.com/senaru.github.io/nodeDemo#readme"
+}
