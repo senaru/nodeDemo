@@ -37,7 +37,7 @@
 </div>
 
 <script>
-  var scocket = io();
+  var socket = io();
   $(() => {
     $("#send").click(() => {
       var msg = { name: $("#name").val(), message: $("#message").val() };
@@ -45,6 +45,8 @@
     });
     getMsgs();
   });
+
+  socket.on("message", addMessages);
 
   function addMessages(msg) {
     $("#msgs").append(`<h4>${msg.name}</h4>
