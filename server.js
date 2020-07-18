@@ -4,6 +4,7 @@ var app = express()
 
 app.use(express.static(__dirname))
 app.use(bp.json())
+app.use(bp.urlencoded({ extended: false }))
 
 var messages = [
     { name: "Tim", message: "Hi" },
